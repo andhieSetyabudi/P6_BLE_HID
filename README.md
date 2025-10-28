@@ -1,4 +1,4 @@
-# Bluetooth&reg; LE Battery Server with OTA update
+# Bluetooth&reg; LE HID
 
 This code example demonstrates the implementation of a simple Bluetooth&reg; Battery Service. The Battery Service exposes the battery level of the device and supports over-the-air (OTA) update over a Bluetooth&reg; Low Energy connection. A peer app on Windows can be used to push OTA updates to the device. The app downloads and writes the image to the secondary slot. On the next reboot, MCUboot copies the new image over to the primary slot and runs the application. If the new image is not validated in runtime, on the next reboot, MCUboot reverts to the previously validated image.
 
